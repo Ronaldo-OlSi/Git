@@ -1,6 +1,5 @@
 package test;
-
-public class FoobarTeste {
+public class FoobarTest{
     //@BeforeClass
     public static void setUpClass() throws Exception{
         //Executado antes do primeiro texte
@@ -26,7 +25,7 @@ public class FoobarTeste {
 
     }
    // @AfterClass
-    public void tearDonClass()throws Exception{
+    public static void tearDownClass()throws Exception{
         //Executado depois do ultimo texte
     }
 }
